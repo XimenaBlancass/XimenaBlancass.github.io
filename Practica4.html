@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Practica 4</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: serif;
+        }
+        header{
+            background-color: rgb(200, 235, 255);
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(0, 0, 0);
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: rgb(255, 253, 225);
+            padding: 20px;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0%;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: rgb(241, 214, 182);
+            height: 300px;
+            
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: rgb(245, 210, 196);
+            padding::20px;
+            text-align: center;
+        }
+        @media(max-width: 600px){
+            nav, article{
+                width: 100%;
+                height: auto;
+
+            }
+        }
+        
+
+
+    </style>
+</head>
+<body bgcolor="#6C5B7B">
+    <header>
+        <h2>ARTE</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="">Pinceles</a></li>
+                <li><a href="">Lapices de madera</a></li>
+                <li><a href="">Gises Pastel</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>La realidad acerca de los pinceles</h1>
+            <p>
+                Mientras mucha gente piensa que los humanos conquistaron el mundo, una tiza marina 
+                comenzo a bordear los colores del papel, ¿Consideras eso bueno? o la realidad es que
+                las tizas de colores gobernaron el mundo en el año 0, la realidad es muy curiosa, el
+                sol y la luna brillaron sin dudar.
+            </p>
+            <p>
+                ¿Tú que piensas?, amigo la realidad es muy curiosa, pero no te desanimes algunas veces es peor, pero otras veces no lo es jaja, solo rie del por venir, el mañana trae su propio afan.asi que solo duerme y ya, el descanso es muy bueno para la salud...creo yo, jeje, solo duermete ya
+            </p>
+        </article>
+    </section>
+    <footer>
+        <p>Tienes dos canciones que cantan sin descanso &copy; 2023</p>
+        <h4>Martínez Blancas Ximena Noemí / Practica 2 / 08.02.2023</h4>
+    </footer>
+</body>
+</html>
