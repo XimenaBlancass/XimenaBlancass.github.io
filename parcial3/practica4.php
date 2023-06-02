@@ -14,6 +14,8 @@ $pregunta8 = $_POST["pregunta8"];
 $pregunta9 = $_POST["pregunta9"];
 $pregunta10 = $_POST["pregunta10"];
 
+echo "<h1>Alumno: " .$nombre. "</h1>";
+
 echo "<h3>Pregunta 1, Respuesta seleccionada(".$pregunta1.")</h3>";
 
 if($pregunta1 == "a"){
@@ -117,10 +119,13 @@ if($pregunta10 == "c"){
 
 if ($calificacion >=0 && $calificacion <= 5){
     echo "<h3>Calificacion: ". $calificacion. " No aprobado (Que mongolo jajaja)</h3>";
+    echo "<img src='fallaste.jpg' width='26%'><hr>";
 }else if($calificacion >=6 && $calificacion <= 8){
     echo "<h3>Calificacion: ". $calificacion. " Aprobaste (Casi Casi, pero buena papuu)</h3>";
+    echo "<img src='casi.jpg' width='26%'><hr>";
 }else if($calificacion >=9 && $calificacion <= 10){
-    echo "<h3>Calificacion: ". $calificacion. " Aprobaste (ESOOOOOO!!!! el perez te pela la riata)</h3>";
+        echo "<h3>Calificacion: ". $calificacion. " Aprobaste (¡¡¡¡ESOOOOOO!!!! el perez queda bien tonto a tu lado)</h3>";
+    echo "<img src='felicidades.jpg' width='26%'><hr>";
 
 }
 
