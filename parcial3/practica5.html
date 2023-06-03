@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 5</title>
+    <style>
+        input[type=text]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            font-size: 30px;
+            border: 0;
+        }
+        table, tr, td{
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body style="width: 20%;">
+    <h1> Juego del gato</h1><hr>
+    <form action="practica5.php" method="POST">
+    <table>
+        <tr>
+        <td><input type="text" name="cuadro[]" value="X" requiered></td>
+        <td><input type="text" name="cuadro[]" value="O" requiered></td>
+        <td><input type="text" name="cuadro[]" value="O" requiered></td>
+    </tr>
+    <tr>
+        <td><input type="text" name="cuadro[]" value="O" requiered></td>
+        <td><input type="text" name="cuadro[]" value="X" requiered></td>
+        <td><input type="text" name="cuadro[]" value="X" requiered></td>
+    </tr>
+    <tr>
+        <td><input type="text" name="cuadro[]" value="X" requiered></td>
+        <td><input type="text" name="cuadro[]" value="O" requiered></td>
+        <td><input type="text" name="cuadro[]" value="X" requiered></td>
+    </tr>
+    </table><br>
+    <input type="submit" value="Revisar">
+</form>
+</body>
+</html>
