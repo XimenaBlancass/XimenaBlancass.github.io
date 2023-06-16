@@ -24,7 +24,8 @@
         <h1>Practica 7 - Tablero Serpiente Y Escaleras</h1>
         <hr>
 
-        <form action="">
+        <form action="practica7.php"  method="POST">
+            <input type="submit" value="jugar" class="btn btn-success"><hr>
         <div class="row">
             <?php
             for($i=100; $i>0; $i--){
